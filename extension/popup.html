@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FashionHelper</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="app">
+    <h1>FashionHelper</h1>
+
+    <!-- Image upload section -->
+    <div id="uploadSection">
+      <input type="file" id="uploadImage" accept="image/*">
+      <button id="uploadButton">Upload and Compare</button>
+    </div>
+
+    <!-- Product results section -->
+    <div id="products">
+      <p>Fetching similar products...</p>
+    </div>
+
+    <!-- New Results section -->
+    <div id="results"></div>
+
+    <!-- Coupons section -->
+    <div id="coupons">
+      <p>Fetching coupons...</p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
